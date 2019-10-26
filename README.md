@@ -9,7 +9,7 @@ npm install react-native-social-buttons
 ```
 
 <p>
-<img src="https://github.com/virtumonde/react-native-social-buttons/blob/master/react-native-social-buttons-preview.png?raw=true" width="50%"/>
+<img src="https://github.com/virtumonde/react-native-social-buttons/blob/master/react-native-social-buttons-preview.png?raw=true" width="80%"/>
 </p>
 
 ## Basic Usage
