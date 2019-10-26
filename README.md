@@ -15,7 +15,7 @@ a basic example is as below
 
 ```jsx
 import React from "react";
-import { View, Alert } from "react-native";
+import { View } from "react-native";
 import { FacebookSocialButton } from "react-native-social-buttons";
 
 export default class App extends React.Component {
@@ -34,5 +34,5 @@ You can styles to the buttons using style={...}
 ##Screenshots
 
 <p>
-<img src="https://i.imgur.com/0i3JNJq.png"  style="border: 0; width: 86%; min-width: 240px; max-width: 100%;" />
+<img src="https://github.com/virtumonde/react-native-social-buttons/blob/master/preview.png?raw=true"  style="border: 0; width: 86%; min-width: 240px; max-width: 100%;" />
 </p>
