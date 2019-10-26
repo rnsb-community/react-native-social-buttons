@@ -1,9 +1,5 @@
 ### React Native Social Buttons
 
-<p>
-<img src="https://github.com/virtumonde/react-native-social-buttons/blob/master/preview.png?raw=true" width="50%"/>
-</p>
-
 ## Installation
 
 ```bash
@@ -11,6 +7,10 @@ yarn add react-native-social-buttons
 or
 npm install react-native-social-buttons
 ```
+
+<p>
+<img src="https://github.com/virtumonde/react-native-social-buttons/blob/master/preview.png?raw=true" width="50%"/>
+</p>
 
 ## Basic Usage
 
