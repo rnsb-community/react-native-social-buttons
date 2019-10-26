@@ -1,0 +1,42 @@
+{
+  "author": {
+    "name": "Dan Clipca"
+  },
+  "bugs": {
+    "url": "https://github.com/virtumonde/react-native-social-buttons/issues"
+  },
+  "dependencies": {
+    "prop-types": "^15.7.2"
+  },
+  "description": "Declarative social buttons for React Native.",
+  "devDependencies": {
+    "prettier": "^1.17.0",
+    "react": "16.5.0",
+    "react-native": "^0.57.1"
+  },
+  "files": [
+    "src"
+  ],
+  "homepage": "https://github.com/virtumonde/react-native-social-buttons/blob/master/README.md",
+  "keywords": [
+    "react-native",
+    "react-component",
+    "social",
+    "button",
+    "buttons",
+    "component"
+  ],
+  "license": "MIT",
+  "main": "src/index.js",
+  "name": "react-native-social-buttons",
+  "peerDependencies": {
+    "prop-types": "^15.0 || ^16.0",
+    "react": "*",
+    "react-native": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/virtumonde/react-native-social-buttons.git"
+  },
+  "version": "1.0.1"
+}
