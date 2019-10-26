@@ -1,7 +1,7 @@
-### React Native Social Icons
+### React Native Social Buttons
 
 <p>
-<img src="https://github.com/virtumonde/react-native-social-buttons/blob/master/preview.png?raw=true"  style="border: 0; width: 86%; min-width: 240px; max-width: 60%;" />
+<img src="https://github.com/virtumonde/react-native-social-buttons/blob/master/preview.png?raw=true"  style="border: 0; width: 60%; min-width: 240px; max-width: 60%;" />
 </p>
 
 ## Installation
