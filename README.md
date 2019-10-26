@@ -3,9 +3,9 @@
 ## Installation
 
 ```bash
-yarn add react-native-social buttons
+yarn add react-native-social-buttons
 or
-npm install react-native-social buttons
+npm install react-native-social-buttons
 ```
 
 ## Basic Usage
