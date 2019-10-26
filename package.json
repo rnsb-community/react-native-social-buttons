@@ -6,9 +6,8 @@
     "url": "https://github.com/virtumonde/react-native-social-buttons/issues"
   },
   "dependencies": {
-    "prop-types": "^15.7.2"
   },
-  "description": "Declarative social buttons for React Native.",
+  "description": "Declarative social button components for React Native.",
   "devDependencies": {
     "prettier": "^1.17.0",
     "react": "16.5.0",
@@ -30,7 +29,6 @@
   "main": "src/index.js",
   "name": "react-native-social-buttons",
   "peerDependencies": {
-    "prop-types": "^15.0 || ^16.0",
     "react": "*",
     "react-native": "*"
   },
