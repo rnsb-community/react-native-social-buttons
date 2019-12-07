@@ -5,6 +5,7 @@ const styles = StyleSheet.create({
   githubStyle: {
     flexDirection: "row",
     alignItems: "center",
+    justifyContent: "center",
     backgroundColor: "#333",
     borderWidth: 0.5,
     borderColor: "#fff",

@@ -1,10 +1,11 @@
 import React from "react";
-import { Text, TouchableOpacity, StyleSheet, Image } from "react-native";
+import { Text, TouchableOpacity, StyleSheet, Image, View} from "react-native";
 
 const styles = StyleSheet.create({
   facebookStyle: {
     flexDirection: "row",
     alignItems: "center",
+    justifyContent: "center",
     backgroundColor: "#485a96",
     borderWidth: 0.5,
     borderColor: "#fff",
@@ -20,12 +21,13 @@ const styles = StyleSheet.create({
     marginLeft: 15,
     height: 25,
     width: 25,
-    resizeMode: "stretch"
+    resizeMode: "stretch",
+    alignSelf: "center"
   },
   textStyle: {
     color: "#fff",
     marginLeft: 20,
-    marginRight: 20
+    marginRight: 20,
   }
 });
 

@@ -5,6 +5,7 @@ const styles = StyleSheet.create({
   twitterStyle: {
     flexDirection: "row",
     alignItems: "center",
+    justifyContent: "center",
     backgroundColor: "#00acee",
     borderWidth: 0.5,
     borderColor: "#fff",

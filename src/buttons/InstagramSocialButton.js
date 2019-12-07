@@ -5,6 +5,7 @@ const styles = StyleSheet.create({
   instagramStyle: {
     flexDirection: "row",
     alignItems: "center",
+    justifyContent: "center",
     backgroundColor: "#ffffff",
     borderWidth: 0.5,
     borderColor: "#fff",

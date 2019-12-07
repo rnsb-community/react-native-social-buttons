@@ -5,6 +5,7 @@ const styles = StyleSheet.create({
   microsoftStyle: {
     flexDirection: "row",
     alignItems: "center",
+    justifyContent: "center",
     backgroundColor: "#0078d7",
     borderWidth: 0.5,
     borderColor: "#fff",

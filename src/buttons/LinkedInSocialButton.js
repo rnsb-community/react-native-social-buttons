@@ -5,6 +5,7 @@ const styles = StyleSheet.create({
   linkedinStyle: {
     flexDirection: "row",
     alignItems: "center",
+    justifyContent: "center",
     backgroundColor: "#4875B4",
     borderWidth: 0.5,
     borderColor: "#fff",
