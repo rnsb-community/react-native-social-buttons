@@ -5,6 +5,7 @@ const styles = StyleSheet.create({
   amazonStyle: {
     flexDirection: "row",
     alignItems: "center",
+    justifyContent: "center",
     backgroundColor: "#FF9B00",
     borderWidth: 0.5,
     borderColor: "#fff",
