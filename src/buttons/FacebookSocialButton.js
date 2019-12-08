@@ -4,6 +4,7 @@ import { Text, TouchableOpacity, StyleSheet, Image, View} from "react-native";
 const styles = StyleSheet.create({
   facebookStyle: {
     alignItems: "center",
+    flexDirection: "row",
     justifyContent: "center",
     backgroundColor: "#485a96",
     borderWidth: 0.5,
