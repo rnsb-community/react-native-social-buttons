@@ -32,14 +32,14 @@ export class TwitterSocialButton extends React.Component {
   render() {
     return (
       <TouchableOpacity
-        style={{ ...styles.twitterStyle, ...this.props.style }}
+        style={{ ...styles.twitterStyle, ...this.props.buttonViewStyle }}
         onPress={this.props.onPress}
       >
         <Image
           source={require("../images/twitter.png")}
-          style={styles.imageIconStyle}
+          style={{...styles.imageIconStyle, ...this.props.logoStyle}}
         />
-        <Text style={styles.textStyle}>
+        <Text style={{...styles.textStyle, ...this.props.textStyle}}>
           {this.props.buttonText
             ? this.props.buttonText
             : "Sign in with Twitter"}

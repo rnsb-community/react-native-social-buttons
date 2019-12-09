@@ -3,8 +3,8 @@ import { Text, TouchableOpacity, StyleSheet, Image, View} from "react-native";
 
 const styles = StyleSheet.create({
   facebookStyle: {
-    alignItems: "center",
     flexDirection: "row",
+    alignItems: "center",
     justifyContent: "center",
     backgroundColor: "#485a96",
     borderWidth: 0.5,
@@ -35,14 +35,14 @@ export class FacebookSocialButton extends React.Component {
   render() {
     return (
       <TouchableOpacity
-        style={{ ...styles.facebookStyle, ...this.props.style }}
+        style={{ ...styles.facebookStyle, ...this.props.buttonViewStyle }}
         onPress={this.props.onPress}
       >
         <Image
           source={require("../images/facebook.png")}
-          style={styles.imageIconStyle}
+          style={{...styles.imageIconStyle, ...this.props.logoStyle}}
         />
-        <Text style={styles.textStyle}>
+        <Text style={{...styles.textStyle, ...this.props.textStyle}}>
           {this.props.buttonText
             ? this.props.buttonText
             : "Sign in with Facebook"}

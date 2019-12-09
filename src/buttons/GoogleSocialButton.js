@@ -32,12 +32,12 @@ export class GoogleSocialButton extends React.Component {
   render() {
     return (
       <TouchableOpacity
-        style={{ ...styles.googleStyle, ...this.props.style }}
+        style={{ ...styles.googleStyle, ...this.props.buttonViewStyle }}
         onPress={this.props.onPress}
       >
         <Image
           source={require("../images/google.png")}
-          style={styles.imageIconStyle}
+          style={{...styles.imageIconStyle, ...this.props.logoStyle}}
         />
         <Text style={styles.textStyle}>
           {this.props.buttonText
