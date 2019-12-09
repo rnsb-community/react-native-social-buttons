@@ -4,7 +4,9 @@
 
 ```bash
 yarn add react-native-social-buttons
+
 or
+
 npm install react-native-social-buttons
 ```
 
