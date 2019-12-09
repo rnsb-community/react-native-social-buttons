@@ -1,5 +1,10 @@
 ### React Native Social Buttons
 
+<p>
+<img src="https://github.com/virtumonde/react-native-social-buttons/blob/master/react-native-social-buttons-preview.png?raw=true" />
+</p>
+
+
 ## Installation
 
 ```bash
@@ -29,7 +34,3 @@ export default class App extends React.Component {
 ```
 
 You can costumize the buttons using buttonViewStyle={...}, logoStyle={...} and textStyle={...}
-
-<p>
-<img src="https://github.com/virtumonde/react-native-social-buttons/blob/master/react-native-social-buttons-preview.png?raw=true" />
-</p>
