@@ -21,7 +21,7 @@ export default class App extends React.Component {
   render() {
     return (
       <View>
-        <FacebookSocialButton onPress={() => {}} />
+        <FacebookSocialButton onPress={() => {}} buttonViewStyle={...} logoStyle={...} textStyle={...} />
       </View>
     );
   }
