@@ -37,9 +37,9 @@ export class GoogleSocialButton extends React.Component {
       >
         <Image
           source={require("../images/google.png")}
-          style={{...styles.imageIconStyle, ...this.props.logoStyle}}
+          style={{ ...styles.imageIconStyle, ...this.props.logoStyle }}
         />
-        <Text style={styles.textStyle}>
+        <Text style={{ ...styles.textStyle, ...this.props.textStyle }}>
           {this.props.buttonText
             ? this.props.buttonText
             : "Sign in with Google"}
