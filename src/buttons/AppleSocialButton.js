@@ -2,11 +2,11 @@ import React from "react";
 import { Text, TouchableOpacity, StyleSheet, Image } from "react-native";
 
 const styles = StyleSheet.create({
-  githubStyle: {
+  appleStyle: {
     flexDirection: "row",
     alignItems: "center",
     justifyContent: "center",
-    backgroundColor: "#333",
+    backgroundColor: "white",
     borderWidth: 0.5,
     borderColor: "#fff",
     height: 40,
@@ -32,7 +32,7 @@ export class AppleSocialButton extends React.Component {
   render() {
     return (
       <TouchableOpacity
-        style={{ ...styles.githubStyle, ...this.props.buttonViewStyle }}
+        style={{ ...styles.appleStyle, ...this.props.buttonViewStyle }}
         onPress={this.props.onPress}
       >
         <Image
@@ -42,7 +42,7 @@ export class AppleSocialButton extends React.Component {
         <Text style={{...styles.textStyle, ...this.props.textStyle}}>
           {this.props.buttonText
             ? this.props.buttonText
-            : "Sign in with GitHub"}
+            : "Sign in with Apple"}
         </Text>
       </TouchableOpacity>
     );
