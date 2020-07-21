@@ -1,10 +1,13 @@
 ### React Native Social Buttons
 
+![](https://img.shields.io/npm/dm/react-native-social-buttons)
+![](https://img.shields.io/npm/l/react-native-social-buttons)
+
 <p>
 <img src="https://github.com/virtumonde/react-native-social-buttons/blob/master/react-native-social-buttons-preview.png?raw=true" />
 </p>
 
-
+https://img.shields.io/npm/dm/react-native-social-buttons
 ## Installation
 
 ```bash
