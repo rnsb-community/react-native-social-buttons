@@ -6,6 +6,7 @@ import { MicrosoftSocialButton } from "../src/buttons/MicrosoftSocialButton";
 import { GitHubSocialButton } from "../src/buttons/GitHubSocialButton";
 import { TwitterSocialButton } from "../src/buttons/TwitterSocialButton";
 import { InstagramSocialButton } from "../src/buttons/InstagramSocialButton";
+import { AppleSocialButton } from "../src/buttons/AppleSocialButton";
 
 export { FacebookSocialButton };
 export { AmazonSocialButton };
@@ -15,3 +16,4 @@ export { MicrosoftSocialButton };
 export { GitHubSocialButton };
 export { TwitterSocialButton };
 export { InstagramSocialButton };
+export { AppleSocialButton };
