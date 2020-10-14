@@ -22,7 +22,7 @@ const styles = StyleSheet.create({
     resizeMode: "stretch"
   },
   textStyle: {
-    color: "#fff",
+    color: "#575757",
     marginLeft: 20,
     marginRight: 20
   }
