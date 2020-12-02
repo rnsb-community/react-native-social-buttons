@@ -1,7 +1,12 @@
 {
   "author": {
-    "name": "Dan Clipca"
+    "name": "Dr. Miguel Amaton"
   },
+  "contributors": [
+    {
+      "name": "Dan Clipca"
+    }
+  ],
   "bugs": {
     "url": "https://github.com/virtumonde/react-native-social-buttons/issues"
   },
@@ -27,7 +32,7 @@
   ],
   "license": "MIT",
   "main": "src/index.js",
-  "name": "react-native-social-buttons",
+  "name": "@dr.amaton/react-native-social-buttons",
   "peerDependencies": {
     "react": "*",
     "react-native": "*"
