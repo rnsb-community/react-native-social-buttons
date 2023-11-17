@@ -10,9 +10,11 @@
     // This compiler run should
     // only output d.ts files
     "emitDeclarationOnly": true,
-    // go to js file when using IDE functions like
-    // "Go to Definition" in VSCode
-    "declarationMap": true,
-    "skipLibCheck": true
+    "declarationDir": "types",
+    "declarationMap": false,
+    "skipLibCheck": true,
+    "removeComments": true,
+    "jsx": "react",
+    "noImplicitAny": true
   }
 }

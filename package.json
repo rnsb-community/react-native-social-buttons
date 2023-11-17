@@ -1,5 +1,4 @@
 {
-  "types": "src/types/index.d.ts",
   "author": {
     "name": "Dan Clipca"
   },
@@ -17,7 +16,8 @@
     "typescript": "^5.2.2"
   },
   "files": [
-    "src"
+    "src",
+    "types"
   ],
   "homepage": "https://github.com/virtumonde/react-native-social-buttons/blob/master/README.md",
   "keywords": [
@@ -30,6 +30,7 @@
   ],
   "license": "MIT",
   "main": "src/index.js",
+  "types": "types/index.d.ts",
   "name": "react-native-social-buttons",
   "peerDependencies": {
     "react": "*",
