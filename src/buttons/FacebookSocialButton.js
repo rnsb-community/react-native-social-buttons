@@ -1,5 +1,5 @@
 import React from "react";
-import { Text, TouchableOpacity, StyleSheet, Image, ImageStyle, TextStyle, ViewStyle } from "react-native";
+import { Text, TouchableOpacity, StyleSheet, Image, ImageStyle, TextStyle, ViewStyle, GestureResponderEvent } from "react-native";
 
 /**
  * Style definition for the FacebookSocialButton component.
@@ -47,10 +47,10 @@ const styles = StyleSheet.create({
  * Props for the FacebookSocialButton component.
  *
  * @typedef {Object} FacebookSocialButtonProps
- * @property {Function} onPress - Function to be called when the button is pressed.
- * @property {Object} [buttonViewStyle] - Style for the entire button view.
- * @property {Object} [logoStyle] - Style for the Facebook logo Image.
- * @property {Object} [textStyle] - Style for the text inside the button.
+ * @property {(event: GestureResponderEvent) => void} onPress - Function to be called when the button is pressed.
+ * @property {ViewStyle} [buttonViewStyle] - Style for the entire button view.
+ * @property {ImageStyle} [logoStyle] - Style for the Facebook logo Image.
+ * @property {TextStyle} [textStyle] - Style for the text inside the button.
  * @property {string} [buttonText] - Text to be displayed inside the button.
  */
 
@@ -58,7 +58,7 @@ const styles = StyleSheet.create({
  * A custom React component representing a social login button for Facebook.
  *
  * @param {FacebookSocialButtonProps} props - The props for the component.
- * @returns {JSX.Element} JSX element representing the FacebookSocialButton.
+ * @returns {React.JSX.Element} JSX element representing the FacebookSocialButton.
  */
 const FacebookSocialButton = (props) => {
   return (

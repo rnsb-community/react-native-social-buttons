@@ -1,5 +1,5 @@
 import React from "react";
-import { Text, TouchableOpacity, StyleSheet, Image, ImageStyle, TextStyle, ViewStyle } from "react-native";
+import { Text, TouchableOpacity, StyleSheet, Image, ImageStyle, TextStyle, ViewStyle, GestureResponderEvent } from "react-native";
 
 /**
  * Style definition for the LinkedInSocialButton component.
@@ -44,10 +44,10 @@ const styles = StyleSheet.create({
  * Props for the LinkedInSocialButton component.
  *
  * @typedef {Object} LinkedInSocialButtonProps
- * @property {Function} onPress - Function to be called when the button is pressed.
- * @property {Object} [buttonViewStyle] - Style for the entire button view.
- * @property {Object} [logoStyle] - Style for the LinkedIn logo Image.
- * @property {Object} [textStyle] - Style for the text inside the button.
+ * @property {(event: GestureResponderEvent) => void} onPress - Function to be called when the button is pressed.
+ * @property {ViewStyle} [buttonViewStyle] - Style for the entire button view.
+ * @property {ImageStyle} [logoStyle] - Style for the LinkedIn logo Image.
+ * @property {TextStyle} [textStyle] - Style for the text inside the button.
  * @property {string} [buttonText] - Text to be displayed inside the button.
  */
 
@@ -55,7 +55,7 @@ const styles = StyleSheet.create({
  * A custom React component representing a social login button for LinkedIn.
  *
  * @param {LinkedInSocialButtonProps} props - The props for the component.
- * @returns {JSX.Element} JSX element representing the LinkedInSocialButton.
+ * @returns {React.JSX.Element} JSX element representing the LinkedInSocialButton.
  */
 const LinkedInSocialButton = (props) => {
   return (
