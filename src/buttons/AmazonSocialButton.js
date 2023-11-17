@@ -1,7 +1,13 @@
 import React from "react";
 import { Text, TouchableOpacity, StyleSheet, Image } from "react-native";
 
+/**
+ * Style definition for the AmazonSocialButton component.
+ */
 const styles = StyleSheet.create({
+  /**
+   * Style for the container TouchableOpacity.
+   */
   amazonStyle: {
     flexDirection: "row",
     alignItems: "center",
@@ -14,6 +20,9 @@ const styles = StyleSheet.create({
     borderRadius: 5,
     margin: 5
   },
+  /**
+   * Style for the Amazon icon Image.
+   */
   imageIconStyle: {
     padding: 10,
     marginLeft: 15,
@@ -21,6 +30,9 @@ const styles = StyleSheet.create({
     width: 25,
     resizeMode: "stretch"
   },
+  /**
+   * Style for the text inside the TouchableOpacity.
+   */
   textStyle: {
     color: "#fff",
     marginLeft: 20,
@@ -28,23 +40,38 @@ const styles = StyleSheet.create({
   }
 });
 
-export class AmazonSocialButton extends React.Component {
-  render() {
-    return (
+/**
+ * Props for the AmazonSocialButton component.
+ *
+ * @typedef {Object} AmazonSocialButtonProps
+ * @property {Function} onPress - Function to be called when the button is pressed.
+ * @property {Object} [buttonViewStyle] - Style for the entire button view.
+ * @property {Object} [logoStyle] - Style for the Amazon logo Image.
+ * @property {Object} [textStyle] - Style for the text inside the button.
+ * @property {string} [buttonText] - Text to be displayed inside the button.
+ */
+
+/**
+ * A custom React component representing a social login button for Amazon.
+ *
+ * @param {AmazonSocialButtonProps} props - The props for the component.
+ * @returns {JSX.Element} JSX element representing the AmazonSocialButton.
+ */
+const AmazonSocialButton = (props) => {
+  return (
       <TouchableOpacity
-        style={{ ...styles.amazonStyle, ...this.props.buttonViewStyle }}
-        onPress={this.props.onPress}
+          style={{ ...styles.amazonStyle, ...props.buttonViewStyle }}
+          onPress={props.onPress}
       >
         <Image
-          source={require("../images/amazon.png")}
-          style={{...styles.imageIconStyle, ...this.props.logoStyle}}
+            source={require("../images/amazon.png")}
+            style={{ ...styles.imageIconStyle, ...props.logoStyle }}
         />
-        <Text style={{...styles.textStyle, ...this.props.textStyle}}>
-          {this.props.buttonText
-            ? this.props.buttonText
-            : "Sign in with Amazon"}
+        <Text style={{ ...styles.textStyle, ...props.textStyle }}>
+          {props.buttonText ? props.buttonText : "Sign in with Amazon"}
         </Text>
       </TouchableOpacity>
-    );
-  }
-}
+  );
+};
+
+export default AmazonSocialButton;
