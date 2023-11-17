@@ -1,17 +1,20 @@
 {
+  "types": "src/types/index.d.ts",
   "author": {
     "name": "Dan Clipca"
   },
   "bugs": {
     "url": "https://github.com/virtumonde/react-native-social-buttons/issues"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "description": "Declarative social button components for React Native.",
   "devDependencies": {
+    "@types/react": "^18.2.37",
+    "@types/react-native": "^0.72.6",
     "prettier": "^2.1.1",
     "react": "16.5.0",
-    "react-native": "^0.57.1"
+    "react-native": "^0.57.1",
+    "typescript": "^5.2.2"
   },
   "files": [
     "src"
