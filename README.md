@@ -36,4 +36,4 @@ export default class App extends React.Component {
 }
 ```
 
-You can costumize the buttons using buttonViewStyle={...}, logoStyle={...} and textStyle={...}
+You can customize the buttons using buttonViewStyle={...}, logoStyle={...} and textStyle={...}
