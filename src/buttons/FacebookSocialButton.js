@@ -1,5 +1,14 @@
 import React from "react";
-import { Text, TouchableOpacity, StyleSheet, Image, ImageStyle, TextStyle, ViewStyle, GestureResponderEvent } from "react-native";
+import {
+  Text,
+  TouchableOpacity,
+  StyleSheet,
+  Image,
+  ImageStyle,
+  TextStyle,
+  ViewStyle,
+  GestureResponderEvent,
+} from "react-native";
 
 /**
  * Style definition for the FacebookSocialButton component.
@@ -20,7 +29,7 @@ const styles = StyleSheet.create({
     borderRadius: 5,
     margin: 5,
     position: "relative",
-    marginBottom: 0
+    marginBottom: 0,
   },
   /**
    * Style for the Facebook icon Image.
@@ -31,7 +40,7 @@ const styles = StyleSheet.create({
     height: 25,
     width: 25,
     resizeMode: "stretch",
-    alignSelf: "center"
+    alignSelf: "center",
   },
   /**
    * Style for the text inside the TouchableOpacity.
@@ -40,7 +49,7 @@ const styles = StyleSheet.create({
     color: "#fff",
     marginLeft: 20,
     marginRight: 20,
-  }
+  },
 });
 
 /**
@@ -62,18 +71,18 @@ const styles = StyleSheet.create({
  */
 const FacebookSocialButton = (props) => {
   return (
-      <TouchableOpacity
-          style={{ ...styles.facebookStyle, ...props.buttonViewStyle }}
-          onPress={props.onPress}
-      >
-        <Image
-            source={require("../images/facebook.png")}
-            style={{ ...styles.imageIconStyle, ...props.logoStyle }}
-        />
-        <Text style={{ ...styles.textStyle, ...props.textStyle }}>
-          {props.buttonText ? props.buttonText : "Sign in with Facebook"}
-        </Text>
-      </TouchableOpacity>
+    <TouchableOpacity
+      style={{ ...styles.facebookStyle, ...props.buttonViewStyle }}
+      onPress={props.onPress}
+    >
+      <Image
+        source={require("../images/facebook.png")}
+        style={{ ...styles.imageIconStyle, ...props.logoStyle }}
+      />
+      <Text style={{ ...styles.textStyle, ...props.textStyle }}>
+        {props.buttonText ? props.buttonText : "Sign in with Facebook"}
+      </Text>
+    </TouchableOpacity>
   );
 };
 
