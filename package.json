@@ -31,22 +31,14 @@
   "bugs": {
     "url": "https://github.com/rnsb-community/react-native-social-buttons/issues"
   },
-  "dependencies": {},
   "description": "Declarative social button components for React Native.",
-  "devDependencies": {
-    "@types/react": "^18.2.37",
-    "@types/react-native": "^0.72.6",
-    "prettier": "^2.1.1",
-    "react": "16.5.0",
-    "react-native": "^0.57.1",
-    "typescript": "^5.2.2"
-  },
   "files": [
     "src",
     "types",
-    "LICENSE"
+    "LICENSE",
+    "README.md"
   ],
-  "homepage": "https://github.com/rnsb-community/react-native-social-buttons/blob/master/README.md",
+  "homepage": "https://github.com/rnsb-community/react-native-social-buttons#readme",
   "keywords": [
     "react-native",
     "react-component",
@@ -56,9 +48,24 @@
     "component",
     "react native social buttons"
   ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "yarn run build",
+    "lint": "prettier --check .",
+    "lint:fix": "prettier --write ."
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/react": "^16.0.0",
+    "@types/react-native": "^0.57.0",
+    "prettier": "^2.1.1",
+    "react": "^16.0.0",
+    "react-native": "^0.57.0",
+    "typescript": "^5.2.2"
+  },
   "peerDependencies": {
-    "react": "*",
-    "react-native": "*"
+    "react": "^16.0.0 || ^17.0.0 || ^18.0.0",
+    "react-native": ">=0.57"
   },
   "repository": {
     "type": "git",
