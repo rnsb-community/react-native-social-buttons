@@ -1,5 +1,14 @@
 import React from "react";
-import { Text, TouchableOpacity, StyleSheet, Image, ImageStyle, TextStyle, ViewStyle, GestureResponderEvent } from "react-native";
+import {
+  Text,
+  TouchableOpacity,
+  StyleSheet,
+  Image,
+  ImageStyle,
+  TextStyle,
+  ViewStyle,
+  GestureResponderEvent,
+} from "react-native";
 
 /**
  * Style definition for the GoogleSocialButton component.
@@ -18,7 +27,7 @@ const styles = StyleSheet.create({
     height: 40,
     width: 220,
     borderRadius: 5,
-    margin: 5
+    margin: 5,
   },
   /**
    * Style for the Google icon Image.
@@ -28,7 +37,7 @@ const styles = StyleSheet.create({
     marginLeft: 15,
     height: 25,
     width: 25,
-    resizeMode: "stretch"
+    resizeMode: "stretch",
   },
   /**
    * Style for the text inside the TouchableOpacity.
@@ -36,8 +45,8 @@ const styles = StyleSheet.create({
   textStyle: {
     color: "#575757",
     marginLeft: 15,
-    marginRight: 20
-  }
+    marginRight: 20,
+  },
 });
 
 /**
@@ -59,18 +68,18 @@ const styles = StyleSheet.create({
  */
 const GoogleSocialButton = (props) => {
   return (
-      <TouchableOpacity
-          style={{ ...styles.googleStyle, ...props.buttonViewStyle }}
-          onPress={props.onPress}
-      >
-        <Image
-            source={require("../images/google.png")}
-            style={{ ...styles.imageIconStyle, ...props.logoStyle }}
-        />
-        <Text style={{ ...styles.textStyle, ...props.textStyle }}>
-          {props.buttonText ? props.buttonText : "Sign in with Google"}
-        </Text>
-      </TouchableOpacity>
+    <TouchableOpacity
+      style={{ ...styles.googleStyle, ...props.buttonViewStyle }}
+      onPress={props.onPress}
+    >
+      <Image
+        source={require("../images/google.png")}
+        style={{ ...styles.imageIconStyle, ...props.logoStyle }}
+      />
+      <Text style={{ ...styles.textStyle, ...props.textStyle }}>
+        {props.buttonText ? props.buttonText : "Sign in with Google"}
+      </Text>
+    </TouchableOpacity>
   );
 };
 

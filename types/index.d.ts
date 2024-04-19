@@ -8,4 +8,15 @@ import TwitterSocialButton from "./buttons/TwitterSocialButton";
 import InstagramSocialButton from "./buttons/InstagramSocialButton";
 import AppleSocialButton from "./buttons/AppleSocialButton";
 import SnapchatSocialButton from "./buttons/SnapchatSocialButton";
-export { FacebookSocialButton, AmazonSocialButton, LinkedInSocialButton, GoogleSocialButton, MicrosoftSocialButton, GitHubSocialButton, TwitterSocialButton, InstagramSocialButton, AppleSocialButton, SnapchatSocialButton };
+export {
+  FacebookSocialButton,
+  AmazonSocialButton,
+  LinkedInSocialButton,
+  GoogleSocialButton,
+  MicrosoftSocialButton,
+  GitHubSocialButton,
+  TwitterSocialButton,
+  InstagramSocialButton,
+  AppleSocialButton,
+  SnapchatSocialButton,
+};

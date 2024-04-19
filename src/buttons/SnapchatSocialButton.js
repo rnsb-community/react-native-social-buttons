@@ -1,43 +1,52 @@
 import React from "react";
-import { Text, TouchableOpacity, StyleSheet, Image, ImageStyle, TextStyle, ViewStyle, GestureResponderEvent } from "react-native";
+import {
+  Text,
+  TouchableOpacity,
+  StyleSheet,
+  Image,
+  ImageStyle,
+  TextStyle,
+  ViewStyle,
+  GestureResponderEvent,
+} from "react-native";
 
 /**
  * Style definition for the SnapchatSocialButton component.
  */
 const styles = StyleSheet.create({
-    /**
-     * Style for the container TouchableOpacity.
-     */
-    snapchatStyle: {
-        flexDirection: "row",
-        alignItems: "center",
-        justifyContent: "center",
-        backgroundColor: "#FFFC00", // Snapchat's brand color
-        borderWidth: 0.5,
-        borderColor: "#000",
-        height: 40,
-        width: 220,
-        borderRadius: 5,
-        margin: 5
-    },
-    /**
-     * Style for the Snapchat icon Image.
-     */
-    imageIconStyle: {
-        padding: 10,
-        marginLeft: 15,
-        height: 25,
-        width: 25,
-        resizeMode: "stretch"
-    },
-    /**
-     * Style for the text inside the TouchableOpacity.
-     */
-    textStyle: {
-        color: "#000",
-        marginLeft: 15,
-        marginRight: 20
-    }
+  /**
+   * Style for the container TouchableOpacity.
+   */
+  snapchatStyle: {
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "center",
+    backgroundColor: "#FFFC00", // Snapchat's brand color
+    borderWidth: 0.5,
+    borderColor: "#000",
+    height: 40,
+    width: 220,
+    borderRadius: 5,
+    margin: 5,
+  },
+  /**
+   * Style for the Snapchat icon Image.
+   */
+  imageIconStyle: {
+    padding: 10,
+    marginLeft: 15,
+    height: 25,
+    width: 25,
+    resizeMode: "stretch",
+  },
+  /**
+   * Style for the text inside the TouchableOpacity.
+   */
+  textStyle: {
+    color: "#000",
+    marginLeft: 15,
+    marginRight: 20,
+  },
 });
 
 /**
@@ -58,20 +67,20 @@ const styles = StyleSheet.create({
  * @returns {React.JSX.Element} JSX element representing the SnapchatSocialButton.
  */
 const SnapchatSocialButton = (props) => {
-    return (
-        <TouchableOpacity
-            style={{ ...styles.snapchatStyle, ...props.buttonViewStyle }}
-            onPress={props.onPress}
-        >
-            <Image
-                source={require("../images/snapchat.png")}
-                style={{ ...styles.imageIconStyle, ...props.logoStyle }}
-            />
-            <Text style={{ ...styles.textStyle, ...props.textStyle }}>
-                {props.buttonText ? props.buttonText : "Log in with Snapchat"}
-            </Text>
-        </TouchableOpacity>
-    );
+  return (
+    <TouchableOpacity
+      style={{ ...styles.snapchatStyle, ...props.buttonViewStyle }}
+      onPress={props.onPress}
+    >
+      <Image
+        source={require("../images/snapchat.png")}
+        style={{ ...styles.imageIconStyle, ...props.logoStyle }}
+      />
+      <Text style={{ ...styles.textStyle, ...props.textStyle }}>
+        {props.buttonText ? props.buttonText : "Log in with Snapchat"}
+      </Text>
+    </TouchableOpacity>
+  );
 };
 
 export default SnapchatSocialButton;
