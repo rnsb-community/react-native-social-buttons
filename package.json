@@ -1,6 +1,6 @@
 {
   "name": "react-native-social-buttons",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "main": "src/index.js",
   "types": "types/index.d.ts",
   "license": "MIT",
@@ -50,7 +50,7 @@
   ],
   "scripts": {
     "build": "tsc",
-    "prepublishOnly": "yarn run build",
+    "prepublishOnly": "yarn run build && yarn lint:fix",
     "lint": "prettier --check .",
     "lint:fix": "prettier --write ."
   },
