@@ -7,6 +7,7 @@ import GitHubSocialButton from "./buttons/GitHubSocialButton";
 import TwitterSocialButton from "./buttons/TwitterSocialButton";
 import InstagramSocialButton from "./buttons/InstagramSocialButton";
 import AppleSocialButton from "./buttons/AppleSocialButton";
+import SnapchatSocialButton from "./buttons/SnapchatSocialButton";
 
 export { FacebookSocialButton };
 export { AmazonSocialButton };
@@ -17,3 +18,4 @@ export { GitHubSocialButton };
 export { TwitterSocialButton };
 export { InstagramSocialButton };
 export { AppleSocialButton };
+export { SnapchatSocialButton };
