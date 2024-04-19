@@ -1,5 +1,5 @@
 {
   "dependencies": {
-    "react-native-social-buttons": "*"
+    "react-native-social-buttons": "^1.4.0"
   }
 }

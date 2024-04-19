@@ -9,6 +9,7 @@ import {
   LinkedInSocialButton,
   MicrosoftSocialButton,
   TwitterSocialButton,
+  SnapchatSocialButton
 } from "react-native-social-buttons";
 
 export default function App() {
@@ -16,6 +17,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
+      <SnapchatSocialButton onPress={handlePressed("Snapchat")} />
       <AmazonSocialButton onPress={handlePressed("Amazon")} />
       <AppleSocialButton onPress={handlePressed("Apple")} />
       <FacebookSocialButton onPress={handlePressed("Facebook")} />
