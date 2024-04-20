@@ -77,7 +77,7 @@ const SnapchatSocialButton = (props) => {
         style={{ ...styles.imageIconStyle, ...props.logoStyle }}
       />
       <Text style={{ ...styles.textStyle, ...props.textStyle }}>
-        {props.buttonText ? props.buttonText : "Log in with Snapchat"}
+        {props.buttonText ? props.buttonText : "Sign in with Snapchat"}
       </Text>
     </TouchableOpacity>
   );

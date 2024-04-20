@@ -5,8 +5,8 @@
 ![](https://img.shields.io/github/contributors/virtumonde/react-native-social-buttons)
 [![Expo Snack - Try Now](https://img.shields.io/badge/Expo%20Snack-Try%20Now-blue?style=flat&logo=expo)](https://snack.expo.dev/@angelxmoreno/react-native-social-buttons-example)
 
-<p>
-<img src="https://github.com/virtumonde/react-native-social-buttons/blob/master/react-native-social-buttons-preview.png?raw=true" />
+<p align="center">
+    <img src="/assets/with-snapchat.png" />
 </p>
 
 ## Installation
